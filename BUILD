@@ -1,27 +1,3 @@
-
-package(default_visibility = ["//visibility:public"])
-licenses(["notice"])
-
-filegroup(
-    name = "fruit_headers",
-    srcs = glob([
-        "include/**/*.h",         
-    ]) + [
-        "//third_party/fruit/configuration/bazel:fruit-config-base",
-    ],
-)    
-
-cc_library(
-    name = "fruit",
-    srcs = glob([
-        "src/*.cpp",
-        "include/fruit/impl/**/*.h",
-        ]),
-    hdrs = glob(["include/fruit/*.h"]),
-    includes = ["include", "configuration/bazel"],
-    deps = [
-        "@boost//:unordered",
-        "//third_party/fruit/configuration/bazel:fruit-config-base",
-    ],
-    linkopts = ["-lm"],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ed2afa7495a6196632f3628b0717013a44388426fe2c7b71b8587399a2ae08b
+size 619

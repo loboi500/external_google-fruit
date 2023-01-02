@@ -1,19 +1,3 @@
-
-
-set(GREETER_SOURCES
-cached_greeter.cpp
-cached_greeter.h
-cached.h
-fake_key_value_storage.cpp
-fake_key_value_storage.h
-greeter.cpp
-greeter.h
-key_value_storage.cpp
-key_value_storage.h
-main.cpp
-)
-
-add_executable(greeter ${GREETER_SOURCES})
-target_link_libraries(greeter fruit)
-
-# TODO: run the tests here under CMake (ATM they only run when using Bazel).
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa862f47565191ad2e3bc43aba57732c13b31711548b38b9acae324db78078a4
+size 353

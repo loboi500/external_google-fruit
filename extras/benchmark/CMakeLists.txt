@@ -1,8 +1,3 @@
-
-# This is just to help IDEs (e.g. CLion) figure out how new_delete_benchmark.cpp is supposed to be built.
-add_executable(new_delete_benchmark-dummy-exec EXCLUDE_FROM_ALL new_delete_benchmark.cpp)
-target_link_libraries(new_delete_benchmark-dummy-exec fruit)
-
-# This is just to help IDEs (e.g. CLion) figure out how compile_time_benchmark.cpp is supposed to be built.
-add_executable(compile_time_benchmark_executable EXCLUDE_FROM_ALL compile_time_benchmark.cpp)
-target_link_libraries(compile_time_benchmark_executable fruit)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b36b450c5fe04eaad5043f84c80167d90abb7452e2bf96035c8ce09ccab6996b
+size 524

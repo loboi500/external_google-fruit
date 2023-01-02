@@ -1,9 +1,3 @@
-
-licenses(["notice"])
-
-load("//third_party/fruit/tests:build_defs.bzl", "fruit_py_tests")
-
-fruit_py_tests(
-    srcs = glob(["test_*.py"]),
-)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b0786edd5d6e1c45d6daeeb943686a3a8804b85ef4b95f21ebd6e6260c3a1fe
+size 142

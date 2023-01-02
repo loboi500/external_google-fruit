@@ -1,27 +1,3 @@
-
-licenses(["notice"])
-
-cc_library(
-    name = "simple_injection_lib",
-    srcs = glob(["*.cpp"], exclude = ["main*.cpp"]),
-    hdrs = glob(["*.h"]), 
-    deps = ["//third_party/fruit"],
-)
-
-cc_binary(
-    name = "simple_injection",
-    srcs = ["main.cpp"],
-    deps = [
-        ":simple_injection_lib",
-        "//third_party/fruit",
-    ],
-)
-
-cc_binary(
-    name = "simple_injection_v1",
-    srcs = ["main_v1.cpp"],
-    deps = [
-        ":simple_injection_lib",
-        "//third_party/fruit",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d53f78d78774d152a5b432fc40deedee2d820fcd872e61005c46fa186aa570a
+size 502
